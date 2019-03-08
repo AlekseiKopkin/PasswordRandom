@@ -16,7 +16,6 @@ public class Main {
             int randomIndex = generator.nextInt(a.length);
             newString=newString+a[randomIndex];
         }
-        System.out.print("Пароль = ");
-        System.out.println(newString);
+        System.out.print("Пароль = " + newString);
     }
 }
